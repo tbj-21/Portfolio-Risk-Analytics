@@ -1,4 +1,4 @@
-# Fixed-Income Portfolio Risk Engine
+#  Risk Engine for Fixed-Income Portfolio
 
 A Python-based fixed-income risk analytics project that evaluates the interest-rate risk of a current hypothetical Euro bond portfolio using historical ECB yield-curve movements, stress scenarios, and Monte Carlo simulation.
 
@@ -194,19 +194,6 @@ python positiontests.py
 ```
 
 Make sure the ECB yield-curve CSV and hypothetical bond portfolio Excel file are in the same working directory as the Python script.
-
-## Future Improvements
-
-Possible next steps:
-- Add convexity to large-shock P&L estimates
-- Add rolling volatility and regime-based analysis
-- Compare different historical lookback windows
-- Add parallel shift, steepener, and flattener stress scenarios
-- Add key-rate DV01
-- Add credit-spread risk
-- Add VaR backtesting
-- Add portfolio dashboards
-- Add scenario reporting by maturity bucket
 
 ## Disclaimer
 
